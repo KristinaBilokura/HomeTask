@@ -10,15 +10,16 @@ import java.util.regex.Pattern;
 public class Founder {
     private static final Logger log = Logger.getLogger(LinkedList.class);
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         File path = new File("number.txt");
         findNumber(path);
+        DAO.getConnection();
     }
 
     private static void findNumber(File path) {
         try {
             BufferedReader br = new BufferedReader(new FileReader(path));
-            String line,line2;
+            String line;
             while ((line = br.readLine()) != null) {
                 Pattern p = Pattern.compile("\\+300+?");
                 Matcher m = p.matcher(line);
@@ -26,7 +27,6 @@ public class Founder {
                     System.out.println(line);
                 }
             }
-
             br.close();
         }catch (Exception e) {
             System.out.println("OOPS! File could not read!");
