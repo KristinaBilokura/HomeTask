@@ -19,6 +19,7 @@ public class DAO {
             queryPerson(con , person);
             System.out.println("Foreigners");
             ifThereforeigners(con, person);
+
         }catch (Exception e) {
             System.out.println(e);
         }
@@ -31,7 +32,7 @@ public class DAO {
             System.out.println("Name  : " + resultSet.getString(person.getName())+"Number :"+ resultSet.getString(person.getNumber())
             ) ;
         }
-        System.out.println("Department table!");
+
     }
     public static void ifThereforeigners(Connection con , Person person) throws Exception {
         Statement statement = con.createStatement();
@@ -40,6 +41,6 @@ public class DAO {
             System.out.println("Name: " + resultSet.getString(person.getName())+"Surname :"+ resultSet.getString(person.getSurname())
             ) ;
         }
-        System.out.println("Department table!");
+
     }
 }
