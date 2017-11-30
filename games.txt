@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameOfThrones>
+    <genre>Fantasy Serial drama</genre>
+        <country name ="Northern Ireland">
+        </country>
+        <country name ="Croatia">
+        </country>
+        <country name ="Iceland">
+        </country>
+    <season id="first">
+        <name>A Game of Thrones</name>
+        <year>2010</year>
+        <description>
+            Summers span decades. Winters can last a lifetime. And the struggle for the Iron Throne has begun.
+        </description>
+        <viewersM>2.52</viewersM>
+    </season>
+    <season id="second">
+        <name>A Clash of Kings</name>
+        <year>2011</year>
+        <description>
+            The Battle continues in Westeros with feuding families and power hungry rulers.
+        </description>
+        <viewersM>3.80</viewersM>
+    </season>
+    <season id="third">
+        <name>A Storm of Swords</name>
+        <year>2012</year>
+        <description>
+            In Season 3, family and loyalty will be the overarching themes, and many critical plot points from the first two seasons will come to a violent head, with several major characters meeting cruel fates.
+        </description>
+        <viewersM>4.97</viewersM>
+    </season>
+    <season id="fourth">
+        <name>A Dance with Dragons</name>
+        <year>2013</year>
+        <description>
+            As Season 4 begins, the Lannisters' hold on the Iron Throne remains intact in the wake of the Red Wedding slaughter that wiped out many of their Stark nemeses.
+        </description>
+        <viewersM>6.84</viewersM>
+    </season>
+    <season id="fifth">
+        <name>The Winds of Winter</name>
+        <year>2014</year>
+        <description>
+            After the shocking deaths of S4, the season begins with a power vacuum that protagonists across Westeros and Essos look to fill.
+        </description>
+        <viewersM>6.88</viewersM>
+    </season>
+    <season id="sixth">
+        <name>A Feast for Crows</name>
+        <year>2015</year>
+        <description>
+            Familiar faces will forge new alliances to bolster their strategic chances at survival, while new characters will emerge to challenge the balance of power in the east, west, north and south.
+        </description>
+        <viewersM>7.69</viewersM>
+    </season>
+    <season id="seventh">
+        <name>A Dream of Spring</name>
+        <year>2016</year>
+        <description>
+            As the season begins, Daenerys Targaryen, accompanied by her Unsullied army and emboldened by Dothraki/Ironborn allies
+        </description>
+        <viewersM>10.26</viewersM>
+    </season>
+
+</gameOfThrones>
