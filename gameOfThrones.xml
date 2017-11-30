@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<task id="1">
+    <datail>
+        <country>Northern Ireland</country>
+        <name>A Game of Thrones</name>
+        <year>2010</year>
+    </datail>
+    <datail>
+        <country>Croatia</country>
+        <name>A Clash of Kings</name>
+        <year>2011</year>
+    </datail>
+    <datail>
+        <country>Croatia</country>
+        <name>A Storm of Swords</name>
+        <year>2012</year>
+    </datail>
+    <datail>
+        <country>Iceland</country>
+        <name>A Dance with Dragons</name>
+        <year>2013</year>
+    </datail>
+    <task>Seasons in details</task>
+</task>
