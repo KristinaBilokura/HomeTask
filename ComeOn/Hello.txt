@@ -1,0 +1,207 @@
+import java.util.Scanner;
+public class Helli{
+
+    public static void main(String[] args) {
+        System.out.println("Task 1-Find a sum of 1 + 2 + 3 + ... + n,\nwhere n - number entered from the keyboard by the user.\n");
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the number : ");
+        int number = in.nextInt();
+        System.out.println(String.format("Sum = %d", sum(number)));
+
+        System.out.println("\nTask 2-Organize continuous input of numbers until the user will enter 0.\nAfter entering  0, show on the console the count of numbers\nthat have been introduced, their total sum and the arithmetic mean.\n");
+        int count=-1,sum2=0, Number2=5;
+        double arithmeticM;
+        System.out.println("Enter some number: ");
+        while(Number2!=0){
+
+            Number2=in.nextInt();
+            ++count;
+            sum2+=Number2;
+        }
+        System.out.println(String.format("Count = %d", count));
+        System.out.println(String.format("Sum = %d", sum2));
+        arithmeticM=(double)sum2/(double)count;
+        System.out.println(String.format("Arithmetic mean = %.1f", arithmeticM));
+
+
+
+        System.out.println("\nTask 3-There are integers from 35 to 87.\nDisplay on console those which give residue 1, 2 or 5 during dividing by 7.\n");
+        System.out.println("Enter first and second number: ");
+        int number3 = in.nextInt();
+        int number4 = in.nextInt();
+        for(int i=number3;i<=number4;i++){
+            if(i%7==1 | i%7==2 | i%7==5){
+                System.out.println(String.format("This number give residue 1, 2 or 5 during dividing by 7 = %d",i));
+            }
+        }
+        System.out.println("\nTask 4,5-Find the count of even digits of some natural number.\n" +
+                "Find the largest digit of natural number.\n");
+        System.out.println("Enter number: ");
+        int number5 = in.nextInt();
+        System.out.println(String.format("MAX number = %d ",function4(number5)));
+
+
+    }
+    public static int sum(int number){
+        int sum=0;
+        int i;
+        for(i=1;i<=number;i++){
+            sum=sum+i;
+        }
+        return sum;
+    }
+    public static int function4(int number5){
+        int max=0,ost;
+        int count=0;
+        do {
+            if((ost=number5%10)>max){
+                max=ost;
+            }
+            System.out.println(ost);
+            if(number5%2==0)
+                count++;
+            number5=number5/10;
+        }while(number5 > 0);
+        System.out.println(String.format("Count of even digits %d ",count));
+        return max;
+    }
+}
+import java.util.Scanner;
+public class Helli{
+
+    public static void main(String[] args) {
+        System.out.println("Task 1-Find a sum of 1 + 2 + 3 + ... + n,\nwhere n - number entered from the keyboard by the user.\n");
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the number : ");
+        int number = in.nextInt();
+        System.out.println(String.format("Sum = %d", sum(number)));
+
+        System.out.println("\nTask 2-Organize continuous input of numbers until the user will enter 0.\nAfter entering  0, show on the console the count of numbers\nthat have been introduced, their total sum and the arithmetic mean.\n");
+        int count=-1,sum2=0, Number2=5;
+        double arithmeticM;
+        System.out.println("Enter some number: ");
+        while(Number2!=0){
+
+            Number2=in.nextInt();
+            ++count;
+            sum2+=Number2;
+        }
+        System.out.println(String.format("Count = %d", count));
+        System.out.println(String.format("Sum = %d", sum2));
+        arithmeticM=(double)sum2/(double)count;
+        System.out.println(String.format("Arithmetic mean = %.1f", arithmeticM));
+
+
+
+        System.out.println("\nTask 3-There are integers from 35 to 87.\nDisplay on console those which give residue 1, 2 or 5 during dividing by 7.\n");
+        System.out.println("Enter first and second number: ");
+        int number3 = in.nextInt();
+        int number4 = in.nextInt();
+        for(int i=number3;i<=number4;i++){
+            if(i%7==1 | i%7==2 | i%7==5){
+                System.out.println(String.format("This number give residue 1, 2 or 5 during dividing by 7 = %d",i));
+            }
+        }
+        System.out.println("\nTask 4,5-Find the count of even digits of some natural number.\n" +
+                "Find the largest digit of natural number.\n");
+        System.out.println("Enter number: ");
+        int number5 = in.nextInt();
+        System.out.println(String.format("MAX number = %d ",function4(number5)));
+
+
+    }
+    public static int sum(int number){
+        int sum=0;
+        int i;
+        for(i=1;i<=number;i++){
+            sum=sum+i;
+        }
+        return sum;
+    }
+    public static int function4(int number5){
+        int max=0,ost;
+        int count=0;
+        do {
+            if((ost=number5%10)>max){
+                max=ost;
+            }
+            System.out.println(ost);
+            if(number5%2==0)
+                count++;
+            number5=number5/10;
+        }while(number5 > 0);
+        System.out.println(String.format("Count of even digits %d ",count));
+        return max;
+    }
+}
+import java.util.Scanner;
+public class Helli{
+
+    public static void main(String[] args) {
+        System.out.println("Task 1-Find a sum of 1 + 2 + 3 + ... + n,\nwhere n - number entered from the keyboard by the user.\n");
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the number : ");
+        int number = in.nextInt();
+        System.out.println(String.format("Sum = %d", sum(number)));
+
+        System.out.println("\nTask 2-Organize continuous input of numbers until the user will enter 0.\nAfter entering  0, show on the console the count of numbers\nthat have been introduced, their total sum and the arithmetic mean.\n");
+        int count=-1,sum2=0, Number2=5;
+        double arithmeticM;
+        System.out.println("Enter some number: ");
+        while(Number2!=0){
+
+            Number2=in.nextInt();
+            ++count;
+            sum2+=Number2;
+        }
+        System.out.println(String.format("Count = %d", count));
+        System.out.println(String.format("Sum = %d", sum2));
+        arithmeticM=(double)sum2/(double)count;
+        System.out.println(String.format("Arithmetic mean = %.1f", arithmeticM));
+
+
+
+        System.out.println("\nTask 3-There are integers from 35 to 87.\nDisplay on console those which give residue 1, 2 or 5 during dividing by 7.\n");
+        System.out.println("Enter first and second number: ");
+        int number3 = in.nextInt();
+        int number4 = in.nextInt();
+        for(int i=number3;i<=number4;i++){
+            if(i%7==1 | i%7==2 | i%7==5){
+                System.out.println(String.format("This number give residue 1, 2 or 5 during dividing by 7 = %d",i));
+            }
+        }
+        System.out.println("\nTask 4,5-Find the count of even digits of some natural number.\n" +
+                "Find the largest digit of natural number.\n");
+        System.out.println("Enter number: ");
+        int number5 = in.nextInt();
+        System.out.println(String.format("MAX number = %d ",function4(number5)));
+
+
+    }
+    public static int sum(int number){
+        int sum=0;
+        int i;
+        for(i=1;i<=number;i++){
+            sum=sum+i;
+        }
+        return sum;
+    }
+    public static int function4(int number5){
+        int max=0,ost;
+        int count=0;
+        do {
+            if((ost=number5%10)>max){
+                max=ost;
+            }
+            System.out.println(ost);
+            if(number5%2==0)
+                count++;
+            number5=number5/10;
+        }while(number5 > 0);
+        System.out.println(String.format("Count of even digits %d ",count));
+        return max;
+    }
+}
+Hello my beautiful friend
+todat is a good day
+I am goind to stydy.

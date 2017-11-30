@@ -1,0 +1,41 @@
+[TA LAB] Task #1 Bilokura Kristina
+package com.epam.lab.task1 (одне суцільне слово бжано з одного слова)
+назва методів бажано змаленько букви (почин з дієслова)
+змінні з маленької букви ,кожне наст слово з великої і перше слово іменник
+-------
+ніяких нижніх підкреслень
+----------
+інтерфейси і класи (австрактна сутність )тому І забирати  (іменники з великої букви)
+константи (великими літерами і розділяються підкресленнями MAX_ID_CONST
+
+запустити проект з консолі
+
+сtrl+shift+Alt +L форматує
+
+/**Javadoc*/-коментарі 
+wrappers-класи обгортки
+gabitch cilector-память
+
+якщо не ініціалізовані змінні то вони =0;
+filo
+fifo
+(черга і стек)
+
+?:
+||- одна перевірка (перевіряє до першої правди)
+immutable-незмінні---------це питають
+
+public void method (Strind name , String sname)
+{
+	 System.out.println(String.format("My name is %s and age %d",name ,age));
+	System.out.println(String.format("%s  %d",name ,age));
+
+
+}
+цикл while -----retry
+break,continue,return------
+
+while(1)-не може бути
+while(true)----може бути
+
+дз до чт до 18:30
